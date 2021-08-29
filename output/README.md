@@ -11,8 +11,8 @@ Apache
 - [Usage](#Usage)
 - [Contribution](#Contribution)
 - [Testing-Process](#Testing-Process)
-- [Questions](Questions)
-- [GitHub-Link](GitHub-Link)
+- [Questions](#Questions)
+- [GitHub-Link](#GitHub-Link)
 
 ### Project-Description
 
