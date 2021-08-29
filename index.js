@@ -10,7 +10,36 @@ const renderReadme = (input) => {
   ${input.license}
 
   ## Table of Contents
+  - [Project-Description](#Project-Description)
+  - [Installation](#Installation)
+  - [Usage](#Usage)
+  - [Contribution](#Contribution)
+  - [Testing-Process](#Testing-Process)
+  - [Questions](#Questions)
+  - [GitHub-Link](#GitHub-Link)
+
+  ### Project-Description
+  ${input.title}
+
+  ### Installation
+  ${input.installation}
+
+  ### Usage
+  ${input.usage}
+
+  ### Contribution
+  ${input.contribution}
+
+  ### Testing-Process
+  ${input.test}
+
+  ### Questions
+    - Contact information, if you have any questions or concerns
+    ${input.email}
   
+  ### GitHub Link
+    ${input.githubURL}
+
   `;
 };
 // TODO: Create an array of questions for user input
