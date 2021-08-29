@@ -16,7 +16,14 @@ const questions = [
     name: "title",
     message: "What is the title of your project? (Requirement)",
     //validate the answer given
-    // validate: (nameInput)
+    validate: (nameInput) => {
+      if (nameInput) {
+        return true;
+      } else {
+        console.log("You must enter a valid title name");
+        return false;
+      }
+    },
   },
 ];
 
