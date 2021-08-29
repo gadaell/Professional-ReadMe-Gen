@@ -6,7 +6,11 @@ const renderReadme = (input) => {
   return `
   # ${input.title}
 
-  ## Heading
+  ## License
+  ${input.license}
+
+  ## Table of Contents
+  
   `;
 };
 // TODO: Create an array of questions for user input
