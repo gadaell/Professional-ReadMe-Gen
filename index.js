@@ -1,14 +1,29 @@
 // TODO: Include packages needed for this application
 const fs = require("fs");
 const inquirer = require("inquirer");
+//Variable icons for licenses
+const licenses = {
+  MIT: "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+  GPL: "[![GPL license](https://img.shields.io/badge/License-GPL-blue.svg)](http://perso.crans.org/besson/LICENSE.html)",
+  APACHE:
+    "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+};
+const licensesLink = {
+  MIT: "[Here](https://www.mit.edu/~amini/LICENSE.md)",
+  GPL: "[Here](https://www.gnu.org/licenses/gpl-3.0.en.html)",
+  APACHE: "[Here](https://www.apache.org/licenses/LICENSE-2.0)",
+};
+
 //function of the Readme file once all data is collected
 const renderReadme = (input) => {
   return `
   # ${input.title}
 
   ## License
-  ${input.license}
+  ${licenses[input.license]}
 
+  Click ${licensesLink[input.license]} for information on the license.
+  
   ## Table of Contents
   - [Project-Description](#Project-Description)
   - [Installation](#Installation)
@@ -16,10 +31,9 @@ const renderReadme = (input) => {
   - [Contribution](#Contribution)
   - [Testing-Process](#Testing-Process)
   - [Questions](#Questions)
-  - [GitHub-Link](#GitHub-Link)
 
   ### Project-Description
-  ${input.title}
+  ${input.description}
 
   ### Installation
   ${input.installation}
@@ -36,8 +50,7 @@ const renderReadme = (input) => {
   ### Questions
     - Contact information, if you have any questions or concerns
     ${input.email}
-  
-  ### GitHub Link
+    - GitHub Link
     ${input.githubURL}
 
   `;
@@ -93,7 +106,7 @@ const questions = [
     type: "list",
     name: "license",
     message: "Please choose a license from the provided list.",
-    choices: ["GPL", "Apache", "MIT"],
+    choices: ["GPL", "APACHE", "MIT"],
   },
   {
     type: "input",

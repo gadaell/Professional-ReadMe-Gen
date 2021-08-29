@@ -34,17 +34,17 @@ A website that able to write and save notes and to organize my thoughts and keep
 ## Built with
 
 - JavaScript
-- Node
+- Node, Inquirer
 
 ## Challenges
 
-- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis cum ipsa sequi esse distinctio ipsam nobis exercitationem. Velit sequi quis minima, ipsum accusamus voluptatum, necessitatibus nostrum consectetur dolorum quidem pariatur?
+- Biggest challenge was trying to create the Readme file and direct it in another folder.
 
-- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis cum ipsa sequi esse distinctio ipsam nobis exercitationem. Velit sequi quis minima, ipsum accusamus voluptatum, necessitatibus nostrum consectetur dolorum quidem pariatur?
+- Another issue was trying to create a validation function that make the user put a valid input and not be able to move to the next question.
 
 ## Website
 
-- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis cum ipsa sequi esse distinctio ipsam nobis exercitationem. Velit sequi quis minima, ipsum accusamus voluptatum, necessitatibus nostrum consectetur dolorum quidem pariatur?
+- https://github.com/gadaell/Professional-ReadMe-Gen
 
 - Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis cum ipsa sequi esse distinctio ipsam nobis exercitationem. Velit sequi quis minima, ipsum accusamus voluptatum, necessitatibus nostrum consectetur dolorum quidem pariatur?
 
