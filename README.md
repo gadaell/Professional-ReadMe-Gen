@@ -48,6 +48,15 @@ A website that able to write and save notes and to organize my thoughts and keep
 
 - Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis cum ipsa sequi esse distinctio ipsam nobis exercitationem. Velit sequi quis minima, ipsum accusamus voluptatum, necessitatibus nostrum consectetur dolorum quidem pariatur?
 
+## Installation/Usage
+
+- Install VS Code.
+- Clone this Repository: https://github.com/gadaell/Professional-ReadMe-Gen
+- Download inquirer; npm install inquirer
+- Run this command: "node index.js"
+- Answer the Questions
+- Once you are done navigate to the "Output" Sub-Folder and your new ReadMe will be there!
+
 ## Contribution
 
 Made by A'Darius (A'D) Ellis, starter code from Xandromus (Xander Rapstine) & nol166 (John McCambridge)

@@ -15,19 +15,19 @@
   - [Questions](#Questions)
 
   ### Project-Description
-  Purple Rain
+  a singing game that play the song prince
 
   ### Installation
-  click on your character, then your weapon, and prepare for battle
+  make sure your mic is on and the lyrics are on the screen
 
   ### Usage
   indefinitely
 
   ### Contribution
-  no 
+  no
 
   ### Testing-Process
-  just download the application through the github link
+  download the application from github and read the readme
 
   ### Questions
     - Contact information, if you have any questions or concerns
