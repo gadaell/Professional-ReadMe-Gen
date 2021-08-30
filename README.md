@@ -46,7 +46,7 @@ A website that able to write and save notes and to organize my thoughts and keep
 
 - https://github.com/gadaell/Professional-ReadMe-Gen
 
-- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis cum ipsa sequi esse distinctio ipsam nobis exercitationem. Velit sequi quis minima, ipsum accusamus voluptatum, necessitatibus nostrum consectetur dolorum quidem pariatur?
+- Instuction video link: https://drive.google.com/file/d/1ubmwbeE3lj8oS0cZNy9NBeELFAW1PuhL/view
 
 ## Installation/Usage
 
