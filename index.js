@@ -51,7 +51,7 @@ const renderReadme = (input) => {
     - Contact information, if you have any questions or concerns
     ${input.email}
     - GitHub Link
-    ${input.githubURL}
+    (https://github.com/${input.githubURL}/
 
   `;
 };
